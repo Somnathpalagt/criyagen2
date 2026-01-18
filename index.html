@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Meta Tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criyagen Agri & Biotech | Connecting Soil to Soul via Happy Crops</title>
+    <meta name="description" content="Criyagen Agri & Biotech - Pioneering agri-input products for comprehensive crop nutrition and protection since 2008. Sustainable agriculture solutions.">
+    <meta name="keywords" content="agriculture, biotech, crop nutrition, crop protection, sustainable farming, agri-inputs">
+    <meta name="author" content="Criyagen Agri & Biotech">
+    
+    <!-- Open Graph Tags -->
+    <meta property="og:title" content="Criyagen Agri & Biotech">
+    <meta property="og:description" content="Connecting Soil to Soul via Happy Crops">
+    <meta property="og:image" content="assets/images/og-image.jpg">
+    <meta property="og:url" content="https://www.criyagen.com">
+    <meta property="og:type" content="website">
+    
+    <!-- Twitter Cards -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Criyagen Agri & Biotech">
+    <meta name="twitter:description" content="Pioneering sustainable agriculture solutions">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico">
+    <link rel="apple-touch-icon" href="assets/images/apple-touch-icon.png">
+    
+    <!-- Component CSS -->
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/footer.css">
+    
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&family=Open+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Preload Critical Resources -->
+    <link rel="preload" href="assets/images/hero-bg.jpg" as="image">
+    <link rel="preload" href="css/style.css" as="style">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div class="loading-screen" id="loadingScreen">
+        <div class="loading-content">
+            <div class="loading-logo">
+                <div class="logo-spinner">
+                    <i class="fas fa-seedling"></i>
+                </div>
+                <h2>Criyagen</h2>
+            </div>
+            <div class="loading-progress">
+                <div class="progress-bar"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Header Container (will be populated by main.js) -->
+    <div id="header-container"></div>
+
+    <!-- Your main page content here -->
+    <main>
+        <h1>Welcome to Criyagen Agri & Biotech</h1>
+        <p>Your content goes here...</p>
+    </main>
+
+    <!-- Footer Container (will be populated by main.js) -->
+    <div id="footer-container"></div>
+
+    <!-- Component JavaScript -->
+    <script src="js/header.js"></script>
+    <script src="js/footer.js"></script>
+    
+    <!-- Main JavaScript -->
+    <script src="js/main.js"></script>
+    <script src="js/animations.js"></script>
+    <script src="js/counter.js"></script>
+    
+    <!-- Page-specific JavaScript -->
+    <script>
+        // Page-specific initialization
+        document.addEventListener('DOMContentLoaded', function() {
+            console.log('Home page loaded');
+            
+            // Initialize any page-specific functionality here
+            if (typeof window.initHomePage === 'function') {
+                window.initHomePage();
+            }
+        });
+    </script>
+</body>
+</html>
