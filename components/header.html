@@ -1,0 +1,111 @@
+<header class="header" id="mainHeader">
+    <div class="container">
+        <nav class="navbar">
+            <!-- Logo -->
+            <a href="index.html" class="logo">
+                <img src="assets/images/logo.png" alt="Criyagen Agri & Biotech Logo" width="180" height="60" loading="lazy">
+                <span class="logo-text">Criyagen</span>
+            </a>
+
+            <!-- Desktop Navigation -->
+            <div class="nav-menu" id="navMenu">
+                <a href="index.html" class="nav-link" data-page="home">
+                    <i class="fas fa-home"></i> <span class="nav-text">Home</span>
+                </a>
+                <a href="about.html" class="nav-link" data-page="about">
+                    <i class="fas fa-info-circle"></i> <span class="nav-text">About Us</span>
+                </a>
+                
+                <!-- Products Dropdown -->
+                <div class="dropdown">
+                    <a href="products.html" class="nav-link dropdown-toggle" data-page="products">
+                        <i class="fas fa-boxes"></i> <span class="nav-text">Products</span> <i class="fas fa-chevron-down dropdown-icon"></i>
+                    </a>
+                    <div class="dropdown-menu">
+                        <a href="products.html#nutrition" class="dropdown-item">
+                            <i class="fas fa-apple-alt"></i> Crop Nutrition
+                        </a>
+                        <a href="products.html#protection" class="dropdown-item">
+                            <i class="fas fa-shield-alt"></i> Crop Protection
+                        </a>
+                        <a href="products.html#soil" class="dropdown-item">
+                            <i class="fas fa-mountain"></i> Soil Health
+                        </a>
+                        <a href="products.html#bio" class="dropdown-item">
+                            <i class="fas fa-recycle"></i> Bio Solutions
+                        </a>
+                        <div class="dropdown-divider"></div>
+                        <a href="products.html#all" class="dropdown-item view-all">
+                            <i class="fas fa-box-open"></i> View All Products
+                        </a>
+                    </div>
+                </div>
+                
+                <a href="contact.html" class="nav-link" data-page="contact">
+                    <i class="fas fa-envelope"></i> <span class="nav-text">Contact Us</span>
+                </a>
+                
+                <!-- Additional Links -->
+                <div class="dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-page="resources">
+                        <i class="fas fa-book"></i> <span class="nav-text">Resources</span> <i class="fas fa-chevron-down dropdown-icon"></i>
+                    </a>
+                    <div class="dropdown-menu">
+                        <a href="technical-sheets.html" class="dropdown-item">
+                            <i class="fas fa-file-alt"></i> Technical Sheets
+                        </a>
+                        <a href="brochures.html" class="dropdown-item">
+                            <i class="fas fa-brochure"></i> Brochures
+                        </a>
+                        <a href="certifications.html" class="dropdown-item">
+                            <i class="fas fa-certificate"></i> Certifications
+                        </a>
+                        <a href="blog.html" class="dropdown-item">
+                            <i class="fas fa-blog"></i> Blog
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- CTA Button -->
+                <a href="contact.html#quote" class="btn btn-small btn-primary nav-cta">
+                    <i class="fas fa-quote-left"></i> Get Quote
+                </a>
+            </div>
+
+            <!-- Mobile Actions -->
+            <div class="mobile-actions">
+                <!-- Search Button -->
+                <button class="mobile-search" id="mobileSearchBtn" aria-label="Search">
+                    <i class="fas fa-search"></i>
+                </button>
+                
+                <!-- Phone Button -->
+                <a href="tel:+919876543210" class="mobile-phone" aria-label="Call Us">
+                    <i class="fas fa-phone"></i>
+                </a>
+                
+                <!-- Mobile Toggle -->
+                <div class="mobile-toggle" id="mobileToggle">
+                    <span class="bar bar1"></span>
+                    <span class="bar bar2"></span>
+                    <span class="bar bar3"></span>
+                </div>
+            </div>
+        </nav>
+    </div>
+    
+    <!-- Mobile Search Bar -->
+    <div class="mobile-search-bar" id="mobileSearchBar">
+        <div class="container">
+            <form class="search-form" role="search">
+                <input type="search" placeholder="Search products, articles, resources..." aria-label="Search">
+                <button type="submit" class="search-submit" aria-label="Submit search">
+                    <i class="fas fa-search"></i>
+                </button>
+                <button type="button" class="search-close" id="searchCloseBtn" aria-label="Close search">
+                    <i class="fas fa-times"></i>
+                </button>
+            </form>
+        </div>
+    </div>
+</header>
